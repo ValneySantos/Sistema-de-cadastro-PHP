@@ -11,16 +11,18 @@
 
 	// executando o comando sql (inserindo dados na tabela)
 	$sql = mysqli_query($conexao, "INSERT INTO carros (placa, marca, modelo, chassi, ano_fab, cor) VALUES ('$placa', '$marca', '$modelo', '$chassi', '$ano_fab', '$cor')");
-
-	echo "Carro cadastrado com sucesso!";
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title></title>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
 </head>
 <body>
-	<br><br>
-	<a href="cadastro.html">Voltar</a>
+	<div class="box">
+		<label class>Cadastrado com sucesso</label>
+		<br><br>
+		<a class="button is-info is-outlined" href="cadastro.html">Voltar</a>
+	</div>
 </body>
 </html>
