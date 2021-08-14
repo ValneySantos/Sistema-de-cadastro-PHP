@@ -3,18 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
     <title>Sistema de Cadastro de carros</title>
 </head>
 
 <body>
-    <form method="post" action="cadastrando.php">
-        Placa: <input type="text" name="placa"><br><br>
-        Marca: <input type="text" name="marca"><br><br>
-        Modelo: <input type="text" name="modelo"><br><br>
-        Chassi: <input type="text" name="chassi"><br><br>
-        Ano de fabricação: <input type="number" name="ano_fab"><br><br>
-        Cor: <input type="text" name="cor"><br><br>
-        <input type="submit" value="Enviar">
+    <form class="box">
+        <div class="field">
+            <label class="label">Placa</label>
+            <div class="control">
+                <input class="input" name="placa">
+            </div>
+            <label class="label">Marca</label>
+            <div class="control">
+                <input class="input" name="marca">
+            </div>
+            <label class="label">Modelo</label>
+            <div class="control">
+                <input class="input" name="modelo">
+            </div>
+            <label class="label">Chassi</label>
+            <div class="control">
+                <input class="input" name="chassi">
+            </div>
+            <label class="label">Ano de fabricação</label>
+            <div class="control">
+                <input class="input" name="ano_fab">
+            </div>
+            <label class="label">Cor</label>
+            <div class="control">
+                <input class="input" name="cor">
+            </div>
+            <label class="label">&nbsp;</label>
+                <input class="button" type="submit" value="Enviar">   
+        </div>
     </form>
 </body>
 
