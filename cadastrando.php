@@ -21,7 +21,8 @@
 <body>
 	<div class="box">
 		<label class>Cadastrado com sucesso</label>
-		<br><br>
+		<br>
+		<br>
 		<a class="button is-info is-outlined" href="cadastro.html">Voltar</a>
 	</div>
 </body>
